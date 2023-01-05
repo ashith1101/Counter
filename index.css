@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    margin-top: 10%;
+    font-size: 5rem;
+}
+h2{
+    font-size:4rem;
+}
+
+button{
+    border:none;
+    width:10rem;
+    color:white;
+    padding: 10px 0px;
+    border-radius: 5px;
+
+}
+button:hover{
+    color:black;
+}
+
+#increment-btn{
+    background: darkblue;
+}
+#decrement-btn{
+    background: darkred;
+}
+
+#save-btn{
+    margin-top:10px;
+    background: darkcyan;
+}
+
+p{
+    margin-top:10px;
+    font-size:1.5rem;
+    font-style: italic;
+}
